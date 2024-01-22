@@ -9,28 +9,26 @@ public class ShopService
         m_persistence = persistence;
     }
 
-    public List<ScriptableItem> GetStorageItens()
+    public List<ScriptableItem> GetStoredScriptableItems()
     {
-        return m_persistence.GetAllItens();
+        return m_persistence.GetAllScriptableItems();
     }
 
-    public void BuyIten(ScriptableItem itemType)
+    public void BuyScriptableItem(ScriptableItem scriptableItem)
     {
-        if (m_persistence.CanSpendValue(itemType.ItemPrice))
+        if (m_persistence.CanSpendSoftCurrency(scriptableItem.ItemPrice))
         {
-            m_persistence.RemoveSoftCurrency(itemType.ItemPrice);
-            m_persistence.AddItem(itemType);
+            m_persistence.RemoveSoftCurrency(scriptableItem.ItemPrice);
+            m_persistence.AddScriptableItem(scriptableItem);
         }
-
-        Debug.Log("OpenPopUp");
     }
 
-    public void SellIten(ScriptableItem itemType)
+    public void SellScriptableItem(ScriptableItem scriptableItem)
     {
-        if (m_persistence.HasIten(itemType))
+        if (m_persistence.HasScriptableItem(scriptableItem))
         {
-            m_persistence.RemoveItem(itemType);
-            m_persistence.AddSofrCurrency(itemType.ItemPrice - itemType.Discount);
+            m_persistence.RemoveScriptableItem(scriptableItem);
+            m_persistence.AddSofrCurrency(scriptableItem.ItemPrice - scriptableItem.Discount);
         }
     }
 

@@ -601,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sctiptableItem: {fileID: 0}
   m_icon: {fileID: 7352491666948532165}
-  iconName: {fileID: 7352491666528612692}
+  m_iconName: {fileID: 7352491666528612692}
   m_useButton: {fileID: 7352491667850734510}
   m_removeButton: {fileID: 2609445916850182094}
 --- !u!1 &7352491666948532163

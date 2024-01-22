@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using Zenject;
 
 public class InventoryPersistence : IPersistence
 {
@@ -9,7 +10,8 @@ public class InventoryPersistence : IPersistence
 
     private InventoryData m_data;
 
-    public InventoryPersistence()
+    [Inject]
+    public void Init()
     {
         m_filePath = Path.Combine(Application.persistentDataPath, "InventoryData.json");
         LoadPesistence();
@@ -17,10 +19,10 @@ public class InventoryPersistence : IPersistence
 
     public void Save()
     {
-            string jsonData = JsonUtility.ToJson(m_data);
-            File.WriteAllText(m_filePath, jsonData);
+        string jsonData = JsonUtility.ToJson(m_data);
+        File.WriteAllText(m_filePath, jsonData);
 
-            Debug.Log("SaveGame");
+        Debug.Log("SaveGame");
     }
 
     private void LoadPesistence()
@@ -41,7 +43,8 @@ public class InventoryPersistence : IPersistence
         }
     }
 
-    public void RemoveItem(ScriptableItem scriptableItem)
+    #region logic
+    public void RemoveScriptableItem(ScriptableItem scriptableItem)
     {
         for (int i = 0; i < m_data.ScriptableItems.Count; i++)
         {
@@ -53,18 +56,18 @@ public class InventoryPersistence : IPersistence
         Save();
     }
 
-    public bool HasIten(ScriptableItem scriptableItem)
+    public bool HasScriptableItem(ScriptableItem scriptableItem)
     {
         return m_data.ScriptableItems.Contains(scriptableItem);
     }
 
-    public void AddItem(ScriptableItem scriptableItem)
+    public void AddScriptableItem(ScriptableItem scriptableItem)
     {
         m_data.ScriptableItems.Add(scriptableItem);
         Save();
     }
 
-    public List<ScriptableItem> GetAllItens()
+    public List<ScriptableItem> GetAllScriptableItems()
     {
         return m_data.ScriptableItems;
     }
@@ -74,9 +77,9 @@ public class InventoryPersistence : IPersistence
         return m_data.SoftCurencyAmount;
     }
 
-    public bool CanSpendValue(int amount)
+    public bool CanSpendSoftCurrency(int value)
     {
-        if (amount < 0 || (m_data.SoftCurencyAmount - amount) < 0)
+        if (value < 0 || (m_data.SoftCurencyAmount - value) < 0)
         {
             return false;
         }
@@ -100,6 +103,8 @@ public class InventoryPersistence : IPersistence
         m_data.SoftCurencyAmount += value;
         Save();
     }
+
+    #endregion
 }
 
 [Serializable]

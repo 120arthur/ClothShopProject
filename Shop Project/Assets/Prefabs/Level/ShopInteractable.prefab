@@ -953,6 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_circleImage: {fileID: 3768807190953887819}
+  m_instructionText: {fileID: 3768807192549475519}
 --- !u!114 &3768807191900553030
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using Zenject;
 
 public class ShopScreen : UI
@@ -20,7 +19,7 @@ public class ShopScreen : UI
     [SerializeField]
     private GameObject m_butonContainer;
     [SerializeField]
-    private SelectButton m_selectButton;
+    private SelectSectionButton m_selectButton;
     [SerializeField]
     private TMP_Text m_softCurrency;
     [SerializeField]
@@ -30,16 +29,16 @@ public class ShopScreen : UI
 
     private ShopService m_shopService;
 
-    private Dictionary<ItemType, List<ShopItem>> m_shopItems = new Dictionary<ItemType, List<ShopItem>>();
+    private Dictionary<ItemType, List<ShopItem>> m_instantiatedshopItems = new Dictionary<ItemType, List<ShopItem>>();
 
-    private ItemType m_currentSection = ItemType.SHIRT;
+    private ItemType m_currentItemsSection;
 
     [Inject]
     private void Init()
     {
         m_shopService = new ShopService(m_persistence);
         m_softCurrency.text = m_shopService.GetCurrencyAmount().ToString();
-        InitButtons();
+        InitSectionButtons();
     }
 
     protected override void Refresh()
@@ -49,27 +48,21 @@ public class ShopScreen : UI
 
     public void ChangeSection(ItemType itemType)
     {
-        if (itemType == m_currentSection)
+        if (m_instantiatedshopItems.ContainsKey(itemType))
         {
-            return;
-        }
-
-        if (m_shopItems.ContainsKey(itemType))
-        {
-
-            SetVisibilityOfItems(itemType, true);
+            SetShopItemstVisibility(itemType, true);
         }
         else
         {
-            InstantiateNewItens(itemType);
+            InstantiateNewIShoptems(itemType);
         }
 
-        SetVisibilityOfItems(m_currentSection, false);
+        SetShopItemstVisibility(m_currentItemsSection, false);
 
-        m_currentSection = itemType;
+        m_currentItemsSection = itemType;
     }
 
-    private void InstantiateNewItens(ItemType itemType)
+    private void InstantiateNewIShoptems(ItemType itemType)
     {
         List<ShopItem> instantiatedItems = new List<ShopItem>();
         foreach (ScriptableItem item in m_allScriptableItems)
@@ -77,58 +70,66 @@ public class ShopScreen : UI
             if (item.ItemType == itemType)
             {
                 ShopItem shopitem = m_instantiator.InstantiatePrefabForComponent<ShopItem>(m_shopItem, m_itemsContainer.transform);
-                shopitem.Init(item, SellIten, BuyIten);
+                shopitem.Init(item, SellShopItem, BuyShopIten);
                 shopitem.SetEnabled(true);
-                shopitem.ShowBuyButton();
+                CheckIfPlayerHasThisShopItem(shopitem);
                 instantiatedItems.Add(shopitem);
             }
         }
 
-        m_shopItems.Add(itemType, instantiatedItems);
+        m_instantiatedshopItems.Add(itemType, instantiatedItems);
     }
 
-    private void SetVisibilityOfItems(ItemType itemType, bool IsVisible)
+    private void SetShopItemstVisibility(ItemType itemType, bool IsVisible)
     {
-        if (m_shopItems.ContainsKey(itemType))
+        if (m_instantiatedshopItems.ContainsKey(itemType) && itemType != m_currentItemsSection)
         {
-            foreach (ShopItem item in m_shopItems[itemType])
+            foreach (ShopItem item in m_instantiatedshopItems[itemType])
             {
                 item.SetEnabled(IsVisible);
-                if (m_persistence.HasIten(item.m_sctiptableItem))
-                {
-                    item.ShowSellButton();
-                }
-                else
-                {
-                    item.ShowBuyButton();
-                }
+                CheckIfPlayerHasThisShopItem(item);
             }
         }
     }
 
-    private void BuyIten(ScriptableItem item, ShopItem shopItem)
+    private void CheckIfPlayerHasThisShopItem(ShopItem Shopitem)
     {
-        m_shopService.BuyIten(item);
+        if (m_persistence.HasScriptableItem(Shopitem.m_sctiptableItem))
+        {
+            Shopitem.ShowSellButton();
+        }
+        else
+        {
+            Shopitem.ShowBuyButton();
+        }
+    }
+
+    private void BuyShopIten(ScriptableItem scriptableItem, ShopItem shopItem)
+    {
+        m_shopService.BuyScriptableItem(scriptableItem);
         m_softCurrency.text = m_shopService.GetCurrencyAmount().ToString();
         shopItem.ShowSellButton();
     }
 
-    private void SellIten(ScriptableItem item, ShopItem shopItem)
+    private void SellShopItem (ScriptableItem scriptableItem, ShopItem shopItem)
     {
-        m_shopService.SellIten(item);
+        m_shopService.SellScriptableItem(scriptableItem);
         m_softCurrency.text = m_shopService.GetCurrencyAmount().ToString();
-        m_signalBus.Fire(new OnRemoveClothEvent(item));
+        m_signalBus.Fire(new OnRemoveClothEvent(scriptableItem));
         shopItem.ShowBuyButton();
     }
 
-    public void InitButtons()
+    public void InitSectionButtons()
     {
         List<ItemType> itemTypeList = Enum.GetValues(typeof(ItemType)).Cast<ItemType>().ToList();
 
         for (int i = 0; i < itemTypeList.Count; i++)
         {
-            SelectButton selectButton = m_instantiator.InstantiatePrefabForComponent<SelectButton>(m_selectButton, m_butonContainer.transform);
-            selectButton.Init(itemTypeList[i], ChangeSection);
+            if (itemTypeList[i] != ItemType.BODY)
+            {
+                SelectSectionButton selectButton = m_instantiator.InstantiatePrefabForComponent<SelectSectionButton>(m_selectButton, m_butonContainer.transform);
+                selectButton.Init(itemTypeList[i], ChangeSection);
+            }
         }
     }
 }

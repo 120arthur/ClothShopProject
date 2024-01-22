@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using Zenject;
 
 public class InventoryService
 {
@@ -12,6 +11,6 @@ public class InventoryService
 
     public List<ScriptableItem> GetStorageItens()
     {
-        return m_persistence.GetAllItens();
+        return m_persistence.GetAllScriptableItems();
     }
 }

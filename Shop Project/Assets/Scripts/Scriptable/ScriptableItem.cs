@@ -1,8 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+public enum ItemType
+{
+    HAT,
+    SHIRT,
+    PANTS,
+    SHOES,
+    BODY
+}
 
-[CreateAssetMenu(fileName = "New item", menuName = "ItemData")]
+[CreateAssetMenu(fileName = "New scriptable item", menuName = "scriptable item")]
 public class ScriptableItem : ScriptableObject
 {
     public Sprite ItemIcon;

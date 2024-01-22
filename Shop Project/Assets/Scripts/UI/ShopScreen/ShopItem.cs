@@ -1,44 +1,42 @@
 ﻿using System;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using Zenject;
 
-public class ShopItem : ItemBase
+public class ShopItem : UIItemBase
 {
     [SerializeField]
-    Button m_BuyButton;
+   private Button m_buyButton;
     [SerializeField]
-    Button m_SellButton;
+   private Button m_sellButton;
 
     [SerializeField]
-    private TMP_Text iconPrice;
+    private TMP_Text m_iconItemPrice;
 
-    protected override void UpdateInfo(ScriptableItem item)
+    protected override void UpdateInfo(ScriptableItem scriptableItem)
     {
-        base.UpdateInfo(item);
-        iconPrice.text = item.ItemPrice.ToString();
+        base.UpdateInfo(scriptableItem);
+        m_iconItemPrice.text = scriptableItem.ItemPrice.ToString();
     }
 
     public void Init(ScriptableItem item, Action<ScriptableItem , ShopItem> sell, Action<ScriptableItem, ShopItem> buy)
     {
         UpdateInfo(item);
 
-        m_SellButton.onClick.AddListener(() => { sell?.Invoke(item, this); });
-        m_BuyButton.onClick.AddListener(() => { buy?.Invoke(item, this); });
+        m_sellButton.onClick.AddListener(() => { sell?.Invoke(item, this); });
+        m_buyButton.onClick.AddListener(() => { buy?.Invoke(item, this); });
     }
 
     public void ShowSellButton()
     {
-        m_BuyButton.gameObject.SetActive(false);
-        m_SellButton.gameObject.SetActive(true);
+        m_buyButton.gameObject.SetActive(false);
+        m_sellButton.gameObject.SetActive(true);
     }
 
     public void ShowBuyButton()
     {
-        m_BuyButton.gameObject.SetActive(true);
-        m_SellButton.gameObject.SetActive(false);
+        m_buyButton.gameObject.SetActive(true);
+        m_sellButton.gameObject.SetActive(false);
     }
 
 }

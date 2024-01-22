@@ -6,7 +6,7 @@ public class GameInstaller : MonoInstaller
     [SerializeField]
     ShopScreen m_shopScreen;
     [SerializeField]
-    InventoryScreen m_wardrobeScreen;
+    InventoryScreen m_inventoryScreen;
 
     public override void InstallBindings()
     {
@@ -18,6 +18,6 @@ public class GameInstaller : MonoInstaller
         Container.Bind(typeof(IPersistence)).To(typeof(InventoryPersistence)).AsSingle();
 
         Container.BindInstance(m_shopScreen);
-        Container.BindInstance(m_wardrobeScreen);
+        Container.BindInstance(m_inventoryScreen);
     }
 }

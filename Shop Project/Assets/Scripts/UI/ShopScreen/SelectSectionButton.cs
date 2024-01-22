@@ -1,10 +1,9 @@
 ﻿using System;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SelectButton : MonoBehaviour
+public class SelectSectionButton : MonoBehaviour
 {
     [SerializeField]
     private Button m_button;

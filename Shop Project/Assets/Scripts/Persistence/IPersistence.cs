@@ -2,13 +2,13 @@
 
 public interface IPersistence
 {
-    void AddItem(ScriptableItem scriptableItem);
-    void AddSofrCurrency(int value);
-    bool CanSpendValue(int amount);
-    List<ScriptableItem> GetAllItens();
-    int GetsoftCurrencyAmount();
-    bool HasIten(ScriptableItem scriptableItem);
-    void RemoveItem(ScriptableItem scriptableItem);
-    void RemoveSoftCurrency(int value);
     void Save();
+    void AddScriptableItem(ScriptableItem scriptableItem);
+    bool HasScriptableItem(ScriptableItem scriptableItem);
+    void RemoveScriptableItem(ScriptableItem scriptableItem);
+    List<ScriptableItem> GetAllScriptableItems();
+    bool CanSpendSoftCurrency(int amount);
+    int GetsoftCurrencyAmount();
+    void AddSofrCurrency(int value);
+    void RemoveSoftCurrency(int value);
 }

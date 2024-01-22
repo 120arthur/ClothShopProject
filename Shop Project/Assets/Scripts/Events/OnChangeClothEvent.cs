@@ -1,21 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class OnUseClothEvent : MonoBehaviour
+public class OnUseClothEvent
 {
-   public ScriptableItem Item;
+   public ScriptableItem m_scriptableItem;
     public OnUseClothEvent(ScriptableItem scriptableItem)
     {
-        Item = scriptableItem;
-    }
-}
-
-public class OnRemoveClothEvent : MonoBehaviour
-{
-   public ScriptableItem Item;
-    public OnRemoveClothEvent(ScriptableItem scriptableItem)
-    {
-        Item = scriptableItem;
+        m_scriptableItem = scriptableItem;
     }
 }

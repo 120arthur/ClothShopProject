@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using Zenject;
 
-public class InventoryItem : ItemBase
+public class InventoryItem : UIItemBase
 {
     [Inject]
     private SignalBus m_signalBus;

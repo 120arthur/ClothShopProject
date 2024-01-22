@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 using Zenject;
 
-public class ShopKeeperInteractable : MonoBehaviour
+public class ShopInteractable : MonoBehaviour
 {
     private const string PLAYER_TAG = "Player";
 
@@ -11,6 +11,8 @@ public class ShopKeeperInteractable : MonoBehaviour
 
     [SerializeField]
     private GameObject m_circleImage;
+    [SerializeField]
+    private GameObject m_instructionText;
 
     private bool m_canOpenScreen = false;
 
@@ -19,6 +21,7 @@ public class ShopKeeperInteractable : MonoBehaviour
         if (collision != null && collision.tag == PLAYER_TAG)
         {
             m_circleImage.gameObject.SetActive(true);
+            m_instructionText.gameObject.SetActive(true);
             m_canOpenScreen = true;
         }
     }
@@ -28,6 +31,7 @@ public class ShopKeeperInteractable : MonoBehaviour
         if (collision != null && collision.tag == PLAYER_TAG)
         {
             m_circleImage.gameObject.SetActive(false);
+            m_instructionText.gameObject.SetActive(false);
             m_canOpenScreen = false;
         }
     }

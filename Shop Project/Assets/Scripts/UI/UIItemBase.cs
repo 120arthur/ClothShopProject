@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ItemBase : MonoBehaviour
+public class UIItemBase : MonoBehaviour
 {
     [HideInInspector]
     public ScriptableItem m_sctiptableItem;
@@ -11,13 +11,13 @@ public class ItemBase : MonoBehaviour
     [SerializeField]
     private Image m_icon;
     [SerializeField]
-    private TMP_Text iconName;
+    private TMP_Text m_iconName;
 
     protected virtual void UpdateInfo(ScriptableItem item)
     {
         m_sctiptableItem = item;
         m_icon.sprite = item.ItemIcon;  
-        iconName.text = item.ItemName;
+        m_iconName.text = item.ItemName;
     }
 
     public void SetEnabled(bool Active)

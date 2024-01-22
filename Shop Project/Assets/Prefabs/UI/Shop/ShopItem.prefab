@@ -780,10 +780,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sctiptableItem: {fileID: 0}
   m_icon: {fileID: 537948301012195174}
-  iconName: {fileID: 537948301431063031}
-  m_BuyButton: {fileID: 537948300775397228}
-  m_SellButton: {fileID: 537948300643719949}
-  iconPrice: {fileID: 537948300873672242}
+  m_iconName: {fileID: 537948301431063031}
+  m_buyButton: {fileID: 537948300775397228}
+  m_sellButton: {fileID: 537948300643719949}
+  m_iconItemPrice: {fileID: 537948300873672242}
 --- !u!1 &537948301902116321
 GameObject:
   m_ObjectHideFlags: 0
