@@ -48,6 +48,8 @@ public class ShopScreen : UI
 
     public void ChangeSection(ItemType itemType)
     {
+        SetShopItemstVisibility(m_currentItemsSection, false);
+
         if (m_instantiatedshopItems.ContainsKey(itemType))
         {
             SetShopItemstVisibility(itemType, true);
@@ -56,9 +58,6 @@ public class ShopScreen : UI
         {
             InstantiateNewIShoptems(itemType);
         }
-
-        SetShopItemstVisibility(m_currentItemsSection, false);
-
         m_currentItemsSection = itemType;
     }
 
@@ -79,10 +78,10 @@ public class ShopScreen : UI
 
         m_instantiatedshopItems.Add(itemType, instantiatedItems);
     }
-
     private void SetShopItemstVisibility(ItemType itemType, bool IsVisible)
+
     {
-        if (m_instantiatedshopItems.ContainsKey(itemType) && itemType != m_currentItemsSection)
+        if (m_instantiatedshopItems.ContainsKey(itemType))
         {
             foreach (ShopItem item in m_instantiatedshopItems[itemType])
             {
