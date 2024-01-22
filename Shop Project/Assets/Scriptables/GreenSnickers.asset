@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d755c31faa419439328a7870804451, type: 3}
-  m_Name: Shirt
+  m_Name: GreenSnickers
   m_EditorClassIdentifier: 
-  ItemIcon: {fileID: -2081761525, guid: 9bdf9c4a3fd8f8946ac6fdc2dc68fb87, type: 3}
-  ItemName: Green Shirt
-  ItemPrice: 13
-  Discount: 10
-  ItemType: 1
-  ItemControllerAnimator: {fileID: 9100000, guid: 60d947cbf1f68954285a2e9c619c897a, type: 2}
+  ItemIcon: {fileID: -742863194, guid: 2b2fea49f3b11f545bb7964fa639e7d1, type: 3}
+  ItemName: Green Shoes
+  ItemPrice: 60
+  Discount: 15
+  ItemType: 3
+  ItemControllerAnimator: {fileID: 9100000, guid: 746b43099fab78e42b85b9a2086320e1, type: 2}

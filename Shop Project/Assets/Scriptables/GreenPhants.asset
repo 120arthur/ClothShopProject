@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d755c31faa419439328a7870804451, type: 3}
-  m_Name: Hat
+  m_Name: GreenPhants
   m_EditorClassIdentifier: 
-  ItemIcon: {fileID: -337728896, guid: 9d76b3fa34c187240bffd6239af6e3b5, type: 3}
-  ItemName: Pink Hat
+  ItemIcon: {fileID: -1628017613, guid: d07a3815461a8a447a70b5a2a1d5e9da, type: 3}
+  ItemName: Gree Pants
   ItemPrice: 13
   Discount: 10
-  ItemType: 0
-  ItemControllerAnimator: {fileID: 9100000, guid: 59397259d76504d43b6636741c8af810, type: 2}
+  ItemType: 2
+  ItemControllerAnimator: {fileID: 9100000, guid: c0358d944d2a5ff4581a220a6cc7f3a3, type: 2}
