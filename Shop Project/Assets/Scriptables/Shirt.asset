@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d755c31faa419439328a7870804451, type: 3}
+  m_Name: Shirt
+  m_EditorClassIdentifier: 
+  ItemIcon: {fileID: -2081761525, guid: 9bdf9c4a3fd8f8946ac6fdc2dc68fb87, type: 3}
+  ItemName: Green Shirt
+  ItemPrice: 13
+  Discount: 10
+  ItemType: 1
+  ItemControllerAnimator: {fileID: 9100000, guid: 60d947cbf1f68954285a2e9c619c897a, type: 2}

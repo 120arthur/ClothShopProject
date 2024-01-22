@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ui
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6c40bddf9d3a36c40917ee575b5970ef, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7447b250a7623c242a5a9ada168e51df, type: 3}
+  - {fileID: 21300000, guid: 31849e01b17ed0043aa8b3894b12b87b, type: 3}
+  - {fileID: 21300000, guid: a410d531ea7f90a4ea5d8e62f5031d09, type: 3}
+  - {fileID: 21300000, guid: 628388612a18c024485de5d581271220, type: 3}
+  - {fileID: 21300000, guid: 2dfbb5b17ae538d43a283e0970bd13c7, type: 3}
+  - {fileID: 21300000, guid: 5747f412f1136f648b2d02b77e2539e2, type: 3}
+  - {fileID: 21300000, guid: 454b8672521ff9648b434d80f8de6c11, type: 3}
+  - {fileID: 21300000, guid: 87e1ccb2bca5a5844a11a21083bc9685, type: 3}
+  - {fileID: 21300000, guid: bf516ed216debcf48854bca18ec78e29, type: 3}
+  - {fileID: 21300000, guid: 7c57a82359406d54da67aa9040561fea, type: 3}
+  - {fileID: 21300000, guid: 0008da43a3b54794a91214866e5bdac0, type: 3}
+  - {fileID: 21300000, guid: 16164a6326cd3e64ab0d456846f9b962, type: 3}
+  - {fileID: 21300000, guid: b6b92e73ebafeb0468f611c41ca5607c, type: 3}
+  - {fileID: 21300000, guid: 5874bbc3ba707174bb61731e3210afd0, type: 3}
+  - {fileID: 21300000, guid: 1dc6ee244a8de244c9f84e10d5773c95, type: 3}
+  - {fileID: 21300000, guid: 44523384d3cd76e4286bc4d33a48884b, type: 3}
+  - {fileID: 21300000, guid: 699b5005928c4e6408f8f0464630632e, type: 3}
+  - {fileID: 21300000, guid: adaba34553926984b909e5726a47e065, type: 3}
+  - {fileID: 21300000, guid: 35ccfa75416bb3340b79e4f5a7db1e12, type: 3}
+  - {fileID: 21300000, guid: 008351d58d2c6aa41a15ca073fa054d1, type: 3}
+  - {fileID: 21300000, guid: 90e6d9f512d5a984cb0c5e9a5ad3836b, type: 3}
+  - {fileID: 21300000, guid: 3d73b476b32ce304bbd11523b155fd29, type: 3}
+  - {fileID: 21300000, guid: 541f22b6d0b541d4f86c85a875721458, type: 3}
+  - {fileID: 21300000, guid: 389a5d0701947b348a16b5ed031c7bbd, type: 3}
+  - {fileID: 21300000, guid: 0e302627f611e4c48a7c4e7c2ea9567b, type: 3}
+  - {fileID: 21300000, guid: 5ca9e847bf8d7ae499c5275a978f8318, type: 3}
+  - {fileID: 21300000, guid: 9b092b579a1aebc48bef129a86c3844b, type: 3}
+  - {fileID: 21300000, guid: 9536bd57f1c1c6244bbd38896967eaab, type: 3}
+  - {fileID: 21300000, guid: 5f9b8887f49825f48a03a1080eb89dda, type: 3}
+  - {fileID: 21300000, guid: a6ec6738dea499d4a95c9b1d7a1115b3, type: 3}
+  - {fileID: 21300000, guid: 1f49377839562a2469b13e133d4fe91b, type: 3}
+  - {fileID: 21300000, guid: fed172886df1da840ad81c80634ff2f6, type: 3}
+  - {fileID: 21300000, guid: d6333988be6fc2749b302eeac97da178, type: 3}
+  - {fileID: 21300000, guid: e53b6398e946e224bb5f4448c1571861, type: 3}
+  - {fileID: 21300000, guid: 195c5cb846ec0f248b398fa3422213fc, type: 3}
+  - {fileID: 21300000, guid: 16911cc8cfda63a46acf76e3bed96ae4, type: 3}
+  - {fileID: 21300000, guid: 6a6eb8e89d71aeb4093ddf948b112d5f, type: 3}
+  - {fileID: 21300000, guid: 647f9469797761f46a784e0c1f44706b, type: 3}
+  - {fileID: 21300000, guid: 53e263b9b63336f46b29a5b568feeb6c, type: 3}
+  - {fileID: 21300000, guid: a8c4e4e95c02b624d9114c13edf64ee7, type: 3}
+  - {fileID: 21300000, guid: f5b8681a0d5b97e4797213602be42c76, type: 3}
+  - {fileID: 21300000, guid: 1f8cc85a8092bea449081cd9066667d9, type: 3}
+  - {fileID: 21300000, guid: 2498238ae9d518d43ad85c84f0849e61, type: 3}
+  - {fileID: 21300000, guid: fc0cfbcac92bc554a8ada4b07b04af54, type: 3}
+  - {fileID: 21300000, guid: 0f09533be9c851442a998cc2e774d7b1, type: 3}
+  - {fileID: 21300000, guid: a34ab43bead9fb64ebd0d514df5b2563, type: 3}
+  - {fileID: 21300000, guid: eefec83b7c4ab7a49ad86626015e2fe0, type: 3}
+  - {fileID: 21300000, guid: 37a91f6bdc6ad1e4d96cfc3ffde9c532, type: 3}
+  - {fileID: 21300000, guid: f5d8f5bbf9f0873469875ad07f2efa20, type: 3}
+  - {fileID: 21300000, guid: 4361932c90fda934c9f0ed0da2259591, type: 3}
+  - {fileID: 21300000, guid: 1830572c4d03f77459acaa8ef7e69cf7, type: 3}
+  - {fileID: 21300000, guid: d68d174c83a7a414a915645c15c526cd, type: 3}
+  - {fileID: 21300000, guid: bd25716c1a4df7944adfaf4e02269607, type: 3}
+  - {fileID: 21300000, guid: 829b1f8d42b8a2245a3691e6d308e4d9, type: 3}
+  - {fileID: 21300000, guid: c6a6719d586a2664e971826096860216, type: 3}
+  - {fileID: 21300000, guid: c1a7d6edaac75314daa62f56502f7869, type: 3}
+  - {fileID: 21300000, guid: ba31a30e16157fc4097c714acdc3f10c, type: 3}
+  - {fileID: 21300000, guid: e32caf1eea48498489a5c96b39de6c67, type: 3}
+  - {fileID: 21300000, guid: c0a9b85e4b82be84ea72e4ddd41fb02f, type: 3}
+  - {fileID: 21300000, guid: 1dd34fee3164428469f7a3878f3b1b26, type: 3}
+  - {fileID: 21300000, guid: 3a2c4efef0bd75d48af6fa9bd7d753b3, type: 3}
+  - {fileID: 21300000, guid: be515a5f1dc432f4dada1dc4729e248f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_Flat_Dropdown_Handle
+  - UI_Flat_Button_Small_Release_01a4
+  - UI_Flat_Frame_02_Lite
+  - UI_Flat_Slot_01_Unavailable
+  - UI_Flat_Fillbar_01_Hollow
+  - UI_Flat_Scrollbar_01
+  - UI_Flat_Cross_Small
+  - UI_Flat_Frame_01_Standard
+  - UI_Flat_Button_Small_Release_02a2
+  - UI_Flat_Fillbar_02_Flat
+  - UI_Flat_Fillbar_01_Flat
+  - UI_Flat_Checkmark_Small
+  - UI_Flat_Textfield_01
+  - UI_Flat_Dropdown
+  - UI_Flat_Banner_01_Downward
+  - UI_Flat_Button_Large_Lock_01a1
+  - UI_Flat_Filler_05
+  - UI_Flat_Scrollbar_Handle_02
+  - UI_Flat_Scrollbar_Handle_03
+  - UI_Flat_Select_01a2
+  - UI_Flat_Checkmark_Medium
+  - UI_Flat_Filler_02
+  - UI_Flat_Button_Large_Lock_01a3
+  - UI_Flat_Slider
+  - UI_Flat_Cross_Medium
+  - UI_Flat_Frame_02_Horizontal
+  - UI_Flat_Scrollbar_02
+  - UI_Flat_Banner_02_Upward
+  - UI_Flat_Cross_Large
+  - UI_Flat_Frame_02_Inward
+  - UI_Flat_Slot_01_Selected
+  - UI_Flat_Filler_03
+  - UI_Flat_Filler_04
+  - UI_Flat_Button_Small_Release_02a1
+  - UI_Flat_Frame_01_Horizontal
+  - UI_Flat_Frame_01_Lite
+  - UI_Flat_Scrollbar_03
+  - UI_Flat_Scrollbar_Handle_01
+  - UI_Flat_Button_Large_Lock_01a2
+  - UI_Flat_Slot_01_Available
+  - UI_Flat_Textfield_02
+  - UI_Flat_Filler_01
+  - UI_Flat_Banner_01_Upward
+  - UI_Flat_Fillbar_02_Hollow
+  - UI_Flat_Select_01a1
+  - UI_Flat_Slot_02_Selected
+  - UI_Flat_Fillbar_02_Block
+  - UI_Flat_Banner_02_Downward
+  - UI_Flat_Frame_01_Vertical
+  - UI_Flat_Slider_Filler
+  - UI_Flat_Button_Small_Release_01a3
+  - UI_Flat_Button_Small_Release_02a4
+  - UI_Flat_Frame_02_Standard
+  - UI_Flat_Slot_02_Unavailable
+  - UI_Flat_Checkmark_Large
+  - UI_Flat_Fillbar_01_Block
+  - UI_Flat_Scrollbar_04
+  - UI_Flat_Frame_01_Inward
+  - UI_Flat_Scrollbar_Handle_04
+  - UI_Flat_Slot_02_Available
+  - UI_Flat_Button_Small_Release_02a3
+  - UI_Flat_Frame_02_Vertical
+  m_RenderDataMap: {}
+  m_Tag: Ui
+  m_IsVariant: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d755c31faa419439328a7870804451, type: 3}
+  m_Name: Phants
+  m_EditorClassIdentifier: 
+  ItemIcon: {fileID: -1628017613, guid: d07a3815461a8a447a70b5a2a1d5e9da, type: 3}
+  ItemName: Gree Pants
+  ItemPrice: 13
+  Discount: 10
+  ItemType: 2
+  ItemControllerAnimator: {fileID: 9100000, guid: c0358d944d2a5ff4581a220a6cc7f3a3, type: 2}
