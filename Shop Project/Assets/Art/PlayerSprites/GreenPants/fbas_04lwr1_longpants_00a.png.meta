@@ -3,7 +3,7 @@ guid: d07a3815461a8a447a70b5a2a1d5e9da
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,11 +63,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -137,7 +136,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -158,7 +157,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -179,7 +178,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,7 +199,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,7 +220,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,7 +241,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,7 +262,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,7 +283,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,7 +304,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,7 +325,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,7 +346,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,7 +367,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,7 +388,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,7 +409,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -431,7 +430,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -452,7 +451,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -473,7 +472,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -494,7 +493,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -515,7 +514,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -536,7 +535,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,7 +556,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -578,7 +577,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -599,7 +598,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -620,7 +619,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -641,7 +640,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -662,7 +661,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -683,7 +682,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -704,7 +703,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -725,7 +724,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -746,7 +745,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -767,7 +766,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -788,7 +787,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -809,7 +808,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -830,7 +829,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -851,7 +850,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -872,7 +871,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -893,7 +892,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -914,7 +913,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -935,7 +934,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -956,7 +955,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -977,7 +976,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -998,7 +997,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1019,7 +1018,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1040,7 +1039,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1061,7 +1060,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1082,7 +1081,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1103,7 +1102,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1124,7 +1123,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1145,7 +1144,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1166,7 +1165,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1187,7 +1186,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1208,7 +1207,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1229,7 +1228,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1250,7 +1249,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1271,7 +1270,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1292,7 +1291,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1313,7 +1312,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1334,7 +1333,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1355,7 +1354,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1376,7 +1375,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1397,7 +1396,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1418,7 +1417,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1439,7 +1438,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1460,7 +1459,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1481,7 +1480,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1502,7 +1501,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1523,7 +1522,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1544,7 +1543,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1565,7 +1564,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1586,7 +1585,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1607,7 +1606,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1628,7 +1627,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1649,7 +1648,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1670,7 +1669,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1691,7 +1690,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1712,7 +1711,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1733,7 +1732,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1754,7 +1753,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1775,7 +1774,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1796,7 +1795,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1817,7 +1816,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1838,7 +1837,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1859,7 +1858,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1880,7 +1879,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1901,7 +1900,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1922,7 +1921,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1943,7 +1942,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1964,7 +1963,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1985,7 +1984,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2006,7 +2005,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2027,7 +2026,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2048,7 +2047,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2069,7 +2068,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2090,7 +2089,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2111,7 +2110,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2132,7 +2131,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2153,7 +2152,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2174,7 +2173,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2195,7 +2194,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2216,7 +2215,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2237,7 +2236,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2258,7 +2257,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2279,7 +2278,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2300,7 +2299,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2321,7 +2320,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2342,7 +2341,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2363,7 +2362,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2384,7 +2383,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2405,7 +2404,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2426,7 +2425,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2447,7 +2446,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2468,7 +2467,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2489,7 +2488,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2510,7 +2509,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2531,7 +2530,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2552,7 +2551,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2573,7 +2572,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2594,7 +2593,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2615,7 +2614,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2636,7 +2635,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2657,7 +2656,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2678,7 +2677,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2699,7 +2698,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2720,7 +2719,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2741,7 +2740,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2762,7 +2761,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2783,7 +2782,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2804,7 +2803,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2825,7 +2824,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2846,7 +2845,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2867,7 +2866,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2888,7 +2887,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2909,7 +2908,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2930,7 +2929,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2951,7 +2950,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2972,7 +2971,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2980,1329 +2979,6 @@ TextureImporter:
       bones: []
       spriteID: b9518dd410959ee40ae929770188013f
       internalID: -792870594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_136
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60955390d0d764e4389149e2773e3e2a
-      internalID: -1519028893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_137
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c814a7f27fdb4d488703f84c03c95d8
-      internalID: 1876677471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_138
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7d3c721ad1d0a148bce191a9f4cefef
-      internalID: 414115818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_139
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b2ba28c3442442499afb58de6b6c08a
-      internalID: 1444346707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_140
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae18f0cb73e1f4c4cbe617a8ddbcb534
-      internalID: -1254529196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_141
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d9c2acff53280041ae0c6945d9dda51
-      internalID: 506288874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_142
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5f0dc6a8f4036a408323f5b8c26bf60
-      internalID: -1124254293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_143
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86f468ba42ab95342b58672a8a296376
-      internalID: -1746872866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_144
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74c1b1cfc98e80447a1e16881d3d9cd8
-      internalID: -572576995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_145
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4babfb319f89fd438cab5bb750569c3
-      internalID: 1175149014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_146
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2bfef2cdef0e8d479ecc0eeab7bd4ac
-      internalID: 259436274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_147
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2514fb5cebd51604c8ee8dfb60068046
-      internalID: 1355458670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_148
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91d2270fc61e441448a492fcb113f717
-      internalID: -416976954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_149
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05e10f1ce40220946bcda8deb57e9546
-      internalID: 388448235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_150
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1db655c52dcdcb4587127b37bc916d8
-      internalID: 967790919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_151
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 257c411d0c8a1d140b79a8b08039467a
-      internalID: 472847650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_152
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f49a441c5802ab42a535513194ae96d
-      internalID: 43913746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_153
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5ab57d6f0efd624f84e7286af52c87d
-      internalID: -506772055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_154
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64f30fdcdd91cf4429e337169aaea13d
-      internalID: -160791608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_155
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f5904f4454422040855a575da03edc9
-      internalID: -1763186281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_156
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46d2cf4225f218346a5d9a45e7fbde7f
-      internalID: 577334134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_157
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60e3e85b1724947498a306a04cb078ba
-      internalID: 1651466806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_158
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdcbf8136a76bc146b0ef28cc5709f7b
-      internalID: -1102541704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_159
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44de26cd814296e459fc08aef58f1edb
-      internalID: -751709430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_160
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 968ea61f4cffac94c937d0479e34a81d
-      internalID: -605953884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_161
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e288bf6008178b5438c7d1bb89533047
-      internalID: 1890757793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_162
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18c7e7f1012ca924a981f05ddc7f4aec
-      internalID: -790989750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_163
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed2c9c1fe5acf5c48b65c531cefedcd8
-      internalID: -810493332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_164
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cb82fcf37c6d6446b2d626ceeabbe17
-      internalID: -387745495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_165
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c454e47266f19774a891044e5b97035d
-      internalID: -1124203219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_166
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f251944ab9d1df14bb6aec86cfa4b199
-      internalID: 1292906043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_167
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0659ae5126adb4418ad913250bc97ea
-      internalID: -217841013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_168
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47c988fff16ac9a42b79109978d49df7
-      internalID: 1034550830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_169
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c205b71f1ae185c449544b65e5909537
-      internalID: -1103980841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_170
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae070bb587872f74bab660ae1f65595e
-      internalID: -1403800492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_171
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77b816d0e941d594c84eb5554d728711
-      internalID: 1915642925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_172
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30b10db8131954a44a038e53a38b5264
-      internalID: 1493126088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_173
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9802d37246deb0e41b52ea355a577bee
-      internalID: -1110250919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_174
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 367360e6dab29254a87cadb18e2e2c30
-      internalID: 1003735392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_175
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0060e29eec946b4429fad0a914dbb8c1
-      internalID: -81940523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_176
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71cdc80798bc62248aa87deaeebfd1d2
-      internalID: 258338308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_177
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a9480b7823f8d0459961c146602af94
-      internalID: 928290008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_178
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07b8cfbbf7dd1a54891b658b9c42cc86
-      internalID: -220158058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_179
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfdcc437d3d10d2439d9c7e787ac72f8
-      internalID: 700586275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_180
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 197fe7ea09feab34d950a77c5fd9282e
-      internalID: -388706927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_181
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cd0421179d371d4482b687c1b4d89bc
-      internalID: 1620950906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_182
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9b4aed7f82ccc443a65a087008ea872
-      internalID: -168077358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_183
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71f757c570e1e8342b4cbb22c170a3f5
-      internalID: -27634518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_184
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a06d1ac050a2c14f9a23a9ca3b55d25
-      internalID: 1182183641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_185
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89548b6c25137214eafacb16703b2b38
-      internalID: -564452645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_186
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c73b943e21fb074a8f89b6293a8ad6f
-      internalID: -1367964113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_187
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6ea3790a7145df4cb13620ab4ab2333
-      internalID: -1765644289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_188
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 908be34331b8c3c4fa7d75706dd43351
-      internalID: 262473563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_189
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1eed0bbe689fe9540a39849a53ca020c
-      internalID: 425183670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_190
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 400713ae483252441882ce98a8b5ffcc
-      internalID: -271122505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_191
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e313a7089ed5be34591cff72ca930ac8
-      internalID: 1592807730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_192
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dd0f955873e50645a54b56711c5a38b
-      internalID: -1408121379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_193
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22bca011953a0434fbd365836bbf925e
-      internalID: -1485582866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_194
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da2b206eb72a95f408a268b1a3d93180
-      internalID: 1855435704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_195
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 360e9092e1be6ec4faf8053e1cd683b0
-      internalID: -1775005917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_196
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4041ed17c6bcbd348b089b9e76d3cad4
-      internalID: -798963801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_197
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21a00fded6ea4c349b8675321861c60c
-      internalID: 2032191739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fbas_04lwr1_longpants_00a_198
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a783937083b98844a0e674cb8fd2942
-      internalID: 1131579962
       vertices: []
       indices: 
       edges: []
@@ -4318,205 +2994,205 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fbas_04lwr1_longpants_00a_0: -1606391917
-      fbas_04lwr1_longpants_00a_1: -10610033
-      fbas_04lwr1_longpants_00a_10: 1919926480
-      fbas_04lwr1_longpants_00a_100: -1836668983
-      fbas_04lwr1_longpants_00a_101: -268554836
-      fbas_04lwr1_longpants_00a_102: -268207870
-      fbas_04lwr1_longpants_00a_103: 753097246
-      fbas_04lwr1_longpants_00a_104: 1119352426
-      fbas_04lwr1_longpants_00a_105: 1356536840
-      fbas_04lwr1_longpants_00a_106: -31112102
-      fbas_04lwr1_longpants_00a_107: 1339471995
-      fbas_04lwr1_longpants_00a_108: -690146945
-      fbas_04lwr1_longpants_00a_109: -1477247519
-      fbas_04lwr1_longpants_00a_11: 445331336
-      fbas_04lwr1_longpants_00a_110: -1302523940
-      fbas_04lwr1_longpants_00a_111: 445287639
-      fbas_04lwr1_longpants_00a_112: 190820197
-      fbas_04lwr1_longpants_00a_113: -382527801
-      fbas_04lwr1_longpants_00a_114: 1060688421
-      fbas_04lwr1_longpants_00a_115: -807138010
-      fbas_04lwr1_longpants_00a_116: 2039935104
-      fbas_04lwr1_longpants_00a_117: -947335185
-      fbas_04lwr1_longpants_00a_118: 1349087242
-      fbas_04lwr1_longpants_00a_119: -1854030744
-      fbas_04lwr1_longpants_00a_12: 1783048669
-      fbas_04lwr1_longpants_00a_120: -795614107
-      fbas_04lwr1_longpants_00a_121: 793111978
-      fbas_04lwr1_longpants_00a_122: -517513862
-      fbas_04lwr1_longpants_00a_123: 95899513
-      fbas_04lwr1_longpants_00a_124: 496651935
-      fbas_04lwr1_longpants_00a_125: 958320609
-      fbas_04lwr1_longpants_00a_126: 906616823
-      fbas_04lwr1_longpants_00a_127: 703173525
-      fbas_04lwr1_longpants_00a_128: 188983777
-      fbas_04lwr1_longpants_00a_129: -2128804668
-      fbas_04lwr1_longpants_00a_13: 249544611
-      fbas_04lwr1_longpants_00a_130: 1915285770
-      fbas_04lwr1_longpants_00a_131: 818615309
-      fbas_04lwr1_longpants_00a_132: -1769046847
-      fbas_04lwr1_longpants_00a_133: 248927849
-      fbas_04lwr1_longpants_00a_134: 1142682176
-      fbas_04lwr1_longpants_00a_135: -792870594
-      fbas_04lwr1_longpants_00a_136: -1519028893
-      fbas_04lwr1_longpants_00a_137: 1876677471
-      fbas_04lwr1_longpants_00a_138: 414115818
-      fbas_04lwr1_longpants_00a_139: 1444346707
-      fbas_04lwr1_longpants_00a_14: -323342232
-      fbas_04lwr1_longpants_00a_140: -1254529196
-      fbas_04lwr1_longpants_00a_141: 506288874
-      fbas_04lwr1_longpants_00a_142: -1124254293
-      fbas_04lwr1_longpants_00a_143: -1746872866
-      fbas_04lwr1_longpants_00a_144: -572576995
-      fbas_04lwr1_longpants_00a_145: 1175149014
-      fbas_04lwr1_longpants_00a_146: 259436274
-      fbas_04lwr1_longpants_00a_147: 1355458670
-      fbas_04lwr1_longpants_00a_148: -416976954
-      fbas_04lwr1_longpants_00a_149: 388448235
-      fbas_04lwr1_longpants_00a_15: 1445440826
-      fbas_04lwr1_longpants_00a_150: 967790919
-      fbas_04lwr1_longpants_00a_151: 472847650
-      fbas_04lwr1_longpants_00a_152: 43913746
-      fbas_04lwr1_longpants_00a_153: -506772055
-      fbas_04lwr1_longpants_00a_154: -160791608
-      fbas_04lwr1_longpants_00a_155: -1763186281
-      fbas_04lwr1_longpants_00a_156: 577334134
-      fbas_04lwr1_longpants_00a_157: 1651466806
-      fbas_04lwr1_longpants_00a_158: -1102541704
-      fbas_04lwr1_longpants_00a_159: -751709430
-      fbas_04lwr1_longpants_00a_16: 905741096
-      fbas_04lwr1_longpants_00a_160: -605953884
-      fbas_04lwr1_longpants_00a_161: 1890757793
-      fbas_04lwr1_longpants_00a_162: -790989750
-      fbas_04lwr1_longpants_00a_163: -810493332
-      fbas_04lwr1_longpants_00a_164: -387745495
-      fbas_04lwr1_longpants_00a_165: -1124203219
-      fbas_04lwr1_longpants_00a_166: 1292906043
-      fbas_04lwr1_longpants_00a_167: -217841013
-      fbas_04lwr1_longpants_00a_168: 1034550830
-      fbas_04lwr1_longpants_00a_169: -1103980841
-      fbas_04lwr1_longpants_00a_17: -1775382169
-      fbas_04lwr1_longpants_00a_170: -1403800492
-      fbas_04lwr1_longpants_00a_171: 1915642925
-      fbas_04lwr1_longpants_00a_172: 1493126088
-      fbas_04lwr1_longpants_00a_173: -1110250919
-      fbas_04lwr1_longpants_00a_174: 1003735392
-      fbas_04lwr1_longpants_00a_175: -81940523
-      fbas_04lwr1_longpants_00a_176: 258338308
-      fbas_04lwr1_longpants_00a_177: 928290008
-      fbas_04lwr1_longpants_00a_178: -220158058
-      fbas_04lwr1_longpants_00a_179: 700586275
-      fbas_04lwr1_longpants_00a_18: -1628017613
-      fbas_04lwr1_longpants_00a_180: -388706927
-      fbas_04lwr1_longpants_00a_181: 1620950906
-      fbas_04lwr1_longpants_00a_182: -168077358
-      fbas_04lwr1_longpants_00a_183: -27634518
-      fbas_04lwr1_longpants_00a_184: 1182183641
-      fbas_04lwr1_longpants_00a_185: -564452645
-      fbas_04lwr1_longpants_00a_186: -1367964113
-      fbas_04lwr1_longpants_00a_187: -1765644289
-      fbas_04lwr1_longpants_00a_188: 262473563
-      fbas_04lwr1_longpants_00a_189: 425183670
-      fbas_04lwr1_longpants_00a_19: -1481460137
-      fbas_04lwr1_longpants_00a_190: -271122505
-      fbas_04lwr1_longpants_00a_191: 1592807730
-      fbas_04lwr1_longpants_00a_192: -1408121379
-      fbas_04lwr1_longpants_00a_193: -1485582866
-      fbas_04lwr1_longpants_00a_194: 1855435704
-      fbas_04lwr1_longpants_00a_195: -1775005917
-      fbas_04lwr1_longpants_00a_196: -798963801
-      fbas_04lwr1_longpants_00a_197: 2032191739
-      fbas_04lwr1_longpants_00a_198: 1131579962
-      fbas_04lwr1_longpants_00a_2: -198277845
-      fbas_04lwr1_longpants_00a_20: 1859269787
-      fbas_04lwr1_longpants_00a_21: 2028019106
-      fbas_04lwr1_longpants_00a_22: -1299476663
-      fbas_04lwr1_longpants_00a_23: 1245472702
-      fbas_04lwr1_longpants_00a_24: 4096956
-      fbas_04lwr1_longpants_00a_25: -836990382
       fbas_04lwr1_longpants_00a_26: 1174091478
-      fbas_04lwr1_longpants_00a_27: 551156142
-      fbas_04lwr1_longpants_00a_28: -757752737
-      fbas_04lwr1_longpants_00a_29: -330952693
-      fbas_04lwr1_longpants_00a_3: 1003765291
-      fbas_04lwr1_longpants_00a_30: 940250166
-      fbas_04lwr1_longpants_00a_31: -389554550
-      fbas_04lwr1_longpants_00a_32: 505253386
-      fbas_04lwr1_longpants_00a_33: 1601664590
-      fbas_04lwr1_longpants_00a_34: -325564377
-      fbas_04lwr1_longpants_00a_35: -1496728704
-      fbas_04lwr1_longpants_00a_36: -605039779
-      fbas_04lwr1_longpants_00a_37: 16402662
-      fbas_04lwr1_longpants_00a_38: -1401642436
-      fbas_04lwr1_longpants_00a_39: 612388019
-      fbas_04lwr1_longpants_00a_4: 1327942706
-      fbas_04lwr1_longpants_00a_40: -1346137358
-      fbas_04lwr1_longpants_00a_41: -504174134
-      fbas_04lwr1_longpants_00a_42: -689519848
-      fbas_04lwr1_longpants_00a_43: 2072048396
-      fbas_04lwr1_longpants_00a_44: 251237700
-      fbas_04lwr1_longpants_00a_45: 1834606393
-      fbas_04lwr1_longpants_00a_46: -673050699
-      fbas_04lwr1_longpants_00a_47: -1247669493
-      fbas_04lwr1_longpants_00a_48: 2051326144
-      fbas_04lwr1_longpants_00a_49: -2862479
-      fbas_04lwr1_longpants_00a_5: -386868755
-      fbas_04lwr1_longpants_00a_50: 1245350016
-      fbas_04lwr1_longpants_00a_51: -647387002
-      fbas_04lwr1_longpants_00a_52: 1672943986
-      fbas_04lwr1_longpants_00a_53: 175560634
-      fbas_04lwr1_longpants_00a_54: -508519577
-      fbas_04lwr1_longpants_00a_55: -1766940249
-      fbas_04lwr1_longpants_00a_56: -1463459231
-      fbas_04lwr1_longpants_00a_57: -349687509
-      fbas_04lwr1_longpants_00a_58: 968339422
-      fbas_04lwr1_longpants_00a_59: -1198540052
-      fbas_04lwr1_longpants_00a_6: -1004418448
-      fbas_04lwr1_longpants_00a_60: 1763051924
-      fbas_04lwr1_longpants_00a_61: -464854522
-      fbas_04lwr1_longpants_00a_62: -1274235586
-      fbas_04lwr1_longpants_00a_63: 988296794
-      fbas_04lwr1_longpants_00a_64: 1125917332
-      fbas_04lwr1_longpants_00a_65: 1331471295
-      fbas_04lwr1_longpants_00a_66: 1306852085
-      fbas_04lwr1_longpants_00a_67: 363210561
-      fbas_04lwr1_longpants_00a_68: -1956273064
-      fbas_04lwr1_longpants_00a_69: -837862396
-      fbas_04lwr1_longpants_00a_7: -1215852010
-      fbas_04lwr1_longpants_00a_70: 2090343779
-      fbas_04lwr1_longpants_00a_71: 513258095
-      fbas_04lwr1_longpants_00a_72: 1155524791
-      fbas_04lwr1_longpants_00a_73: -1112667884
-      fbas_04lwr1_longpants_00a_74: 652182245
-      fbas_04lwr1_longpants_00a_75: 1503825974
-      fbas_04lwr1_longpants_00a_76: 1525045459
-      fbas_04lwr1_longpants_00a_77: 54718290
-      fbas_04lwr1_longpants_00a_78: -1370192418
-      fbas_04lwr1_longpants_00a_79: 1470432904
-      fbas_04lwr1_longpants_00a_8: -33012377
-      fbas_04lwr1_longpants_00a_80: -402381492
-      fbas_04lwr1_longpants_00a_81: 48581639
-      fbas_04lwr1_longpants_00a_82: 2043039986
-      fbas_04lwr1_longpants_00a_83: 2047120554
-      fbas_04lwr1_longpants_00a_84: 1398326965
+      fbas_04lwr1_longpants_00a_10: 1919926480
+      fbas_04lwr1_longpants_00a_165: -1124203219
+      fbas_04lwr1_longpants_00a_158: -1102541704
+      fbas_04lwr1_longpants_00a_152: 43913746
       fbas_04lwr1_longpants_00a_85: -1179073906
-      fbas_04lwr1_longpants_00a_86: -1883180525
+      fbas_04lwr1_longpants_00a_48: 2051326144
+      fbas_04lwr1_longpants_00a_61: -464854522
+      fbas_04lwr1_longpants_00a_120: -795614107
+      fbas_04lwr1_longpants_00a_53: 175560634
+      fbas_04lwr1_longpants_00a_80: -402381492
+      fbas_04lwr1_longpants_00a_64: 1125917332
+      fbas_04lwr1_longpants_00a_27: 551156142
+      fbas_04lwr1_longpants_00a_12: 1783048669
+      fbas_04lwr1_longpants_00a_149: 388448235
+      fbas_04lwr1_longpants_00a_21: 2028019106
+      fbas_04lwr1_longpants_00a_40: -1346137358
+      fbas_04lwr1_longpants_00a_18: -1628017613
       fbas_04lwr1_longpants_00a_87: -47418748
+      fbas_04lwr1_longpants_00a_137: 1876677471
+      fbas_04lwr1_longpants_00a_162: -790989750
+      fbas_04lwr1_longpants_00a_157: 1651466806
+      fbas_04lwr1_longpants_00a_132: -1769046847
+      fbas_04lwr1_longpants_00a_79: 1470432904
+      fbas_04lwr1_longpants_00a_70: 2090343779
+      fbas_04lwr1_longpants_00a_14: -323342232
+      fbas_04lwr1_longpants_00a_179: 700586275
+      fbas_04lwr1_longpants_00a_123: 95899513
       fbas_04lwr1_longpants_00a_88: -571535738
+      fbas_04lwr1_longpants_00a_22: -1299476663
+      fbas_04lwr1_longpants_00a_92: 1223158205
+      fbas_04lwr1_longpants_00a_150: 967790919
+      fbas_04lwr1_longpants_00a_31: -389554550
+      fbas_04lwr1_longpants_00a_138: 414115818
+      fbas_04lwr1_longpants_00a_168: 1034550830
+      fbas_04lwr1_longpants_00a_84: 1398326965
+      fbas_04lwr1_longpants_00a_51: -647387002
+      fbas_04lwr1_longpants_00a_136: -1519028893
+      fbas_04lwr1_longpants_00a_166: 1292906043
+      fbas_04lwr1_longpants_00a_122: -517513862
+      fbas_04lwr1_longpants_00a_102: -268207870
       fbas_04lwr1_longpants_00a_89: 1879101764
+      fbas_04lwr1_longpants_00a_186: -1367964113
+      fbas_04lwr1_longpants_00a_52: 1672943986
+      fbas_04lwr1_longpants_00a_6: -1004418448
+      fbas_04lwr1_longpants_00a_103: 753097246
+      fbas_04lwr1_longpants_00a_171: 1915642925
+      fbas_04lwr1_longpants_00a_44: 251237700
+      fbas_04lwr1_longpants_00a_124: 496651935
+      fbas_04lwr1_longpants_00a_109: -1477247519
+      fbas_04lwr1_longpants_00a_135: -792870594
+      fbas_04lwr1_longpants_00a_63: 988296794
+      fbas_04lwr1_longpants_00a_163: -810493332
+      fbas_04lwr1_longpants_00a_24: 4096956
+      fbas_04lwr1_longpants_00a_174: 1003735392
+      fbas_04lwr1_longpants_00a_25: -836990382
+      fbas_04lwr1_longpants_00a_41: -504174134
+      fbas_04lwr1_longpants_00a_8: -33012377
+      fbas_04lwr1_longpants_00a_155: -1763186281
+      fbas_04lwr1_longpants_00a_57: -349687509
+      fbas_04lwr1_longpants_00a_189: 425183670
+      fbas_04lwr1_longpants_00a_33: 1601664590
+      fbas_04lwr1_longpants_00a_72: 1155524791
+      fbas_04lwr1_longpants_00a_134: 1142682176
+      fbas_04lwr1_longpants_00a_181: 1620950906
+      fbas_04lwr1_longpants_00a_60: 1763051924
+      fbas_04lwr1_longpants_00a_75: 1503825974
+      fbas_04lwr1_longpants_00a_59: -1198540052
+      fbas_04lwr1_longpants_00a_175: -81940523
+      fbas_04lwr1_longpants_00a_198: 1131579962
+      fbas_04lwr1_longpants_00a_94: -1085122120
+      fbas_04lwr1_longpants_00a_2: -198277845
+      fbas_04lwr1_longpants_00a_28: -757752737
+      fbas_04lwr1_longpants_00a_82: 2043039986
+      fbas_04lwr1_longpants_00a_86: -1883180525
+      fbas_04lwr1_longpants_00a_29: -330952693
+      fbas_04lwr1_longpants_00a_81: 48581639
+      fbas_04lwr1_longpants_00a_20: 1859269787
+      fbas_04lwr1_longpants_00a_36: -605039779
+      fbas_04lwr1_longpants_00a_113: -382527801
+      fbas_04lwr1_longpants_00a_118: 1349087242
+      fbas_04lwr1_longpants_00a_104: 1119352426
+      fbas_04lwr1_longpants_00a_159: -751709430
+      fbas_04lwr1_longpants_00a_129: -2128804668
+      fbas_04lwr1_longpants_00a_68: -1956273064
+      fbas_04lwr1_longpants_00a_100: -1836668983
+      fbas_04lwr1_longpants_00a_188: 262473563
+      fbas_04lwr1_longpants_00a_178: -220158058
+      fbas_04lwr1_longpants_00a_194: 1855435704
+      fbas_04lwr1_longpants_00a_121: 793111978
+      fbas_04lwr1_longpants_00a_133: 248927849
+      fbas_04lwr1_longpants_00a_16: 905741096
+      fbas_04lwr1_longpants_00a_107: 1339471995
+      fbas_04lwr1_longpants_00a_176: 258338308
+      fbas_04lwr1_longpants_00a_19: -1481460137
+      fbas_04lwr1_longpants_00a_187: -1765644289
+      fbas_04lwr1_longpants_00a_5: -386868755
+      fbas_04lwr1_longpants_00a_197: 2032191739
+      fbas_04lwr1_longpants_00a_112: 190820197
+      fbas_04lwr1_longpants_00a_97: -903920149
+      fbas_04lwr1_longpants_00a_91: -190540563
+      fbas_04lwr1_longpants_00a_119: -1854030744
+      fbas_04lwr1_longpants_00a_144: -572576995
+      fbas_04lwr1_longpants_00a_7: -1215852010
+      fbas_04lwr1_longpants_00a_42: -689519848
+      fbas_04lwr1_longpants_00a_164: -387745495
+      fbas_04lwr1_longpants_00a_192: -1408121379
+      fbas_04lwr1_longpants_00a_110: -1302523940
+      fbas_04lwr1_longpants_00a_141: 506288874
+      fbas_04lwr1_longpants_00a_115: -807138010
+      fbas_04lwr1_longpants_00a_34: -325564377
+      fbas_04lwr1_longpants_00a_45: 1834606393
+      fbas_04lwr1_longpants_00a_17: -1775382169
+      fbas_04lwr1_longpants_00a_50: 1245350016
+      fbas_04lwr1_longpants_00a_67: 363210561
+      fbas_04lwr1_longpants_00a_74: 652182245
+      fbas_04lwr1_longpants_00a_182: -168077358
+      fbas_04lwr1_longpants_00a_140: -1254529196
+      fbas_04lwr1_longpants_00a_169: -1103980841
+      fbas_04lwr1_longpants_00a_183: -27634518
+      fbas_04lwr1_longpants_00a_101: -268554836
+      fbas_04lwr1_longpants_00a_160: -605953884
+      fbas_04lwr1_longpants_00a_106: -31112102
+      fbas_04lwr1_longpants_00a_139: 1444346707
+      fbas_04lwr1_longpants_00a_39: 612388019
+      fbas_04lwr1_longpants_00a_96: -1839314575
+      fbas_04lwr1_longpants_00a_98: -1489299904
+      fbas_04lwr1_longpants_00a_127: 703173525
+      fbas_04lwr1_longpants_00a_143: -1746872866
+      fbas_04lwr1_longpants_00a_114: 1060688421
+      fbas_04lwr1_longpants_00a_145: 1175149014
+      fbas_04lwr1_longpants_00a_4: 1327942706
+      fbas_04lwr1_longpants_00a_11: 445331336
+      fbas_04lwr1_longpants_00a_46: -673050699
+      fbas_04lwr1_longpants_00a_99: -133535044
+      fbas_04lwr1_longpants_00a_95: -926634317
+      fbas_04lwr1_longpants_00a_185: -564452645
+      fbas_04lwr1_longpants_00a_23: 1245472702
+      fbas_04lwr1_longpants_00a_69: -837862396
+      fbas_04lwr1_longpants_00a_151: 472847650
+      fbas_04lwr1_longpants_00a_108: -690146945
+      fbas_04lwr1_longpants_00a_83: 2047120554
+      fbas_04lwr1_longpants_00a_147: 1355458670
+      fbas_04lwr1_longpants_00a_55: -1766940249
+      fbas_04lwr1_longpants_00a_65: 1331471295
+      fbas_04lwr1_longpants_00a_76: 1525045459
+      fbas_04lwr1_longpants_00a_78: -1370192418
+      fbas_04lwr1_longpants_00a_172: 1493126088
+      fbas_04lwr1_longpants_00a_111: 445287639
+      fbas_04lwr1_longpants_00a_62: -1274235586
+      fbas_04lwr1_longpants_00a_184: 1182183641
+      fbas_04lwr1_longpants_00a_177: 928290008
+      fbas_04lwr1_longpants_00a_170: -1403800492
       fbas_04lwr1_longpants_00a_9: -1374671301
       fbas_04lwr1_longpants_00a_90: 533113151
-      fbas_04lwr1_longpants_00a_91: -190540563
-      fbas_04lwr1_longpants_00a_92: 1223158205
+      fbas_04lwr1_longpants_00a_30: 940250166
+      fbas_04lwr1_longpants_00a_13: 249544611
+      fbas_04lwr1_longpants_00a_191: 1592807730
+      fbas_04lwr1_longpants_00a_32: 505253386
+      fbas_04lwr1_longpants_00a_77: 54718290
+      fbas_04lwr1_longpants_00a_167: -217841013
+      fbas_04lwr1_longpants_00a_37: 16402662
+      fbas_04lwr1_longpants_00a_130: 1915285770
+      fbas_04lwr1_longpants_00a_116: 2039935104
+      fbas_04lwr1_longpants_00a_117: -947335185
+      fbas_04lwr1_longpants_00a_0: -1606391917
+      fbas_04lwr1_longpants_00a_47: -1247669493
+      fbas_04lwr1_longpants_00a_142: -1124254293
+      fbas_04lwr1_longpants_00a_56: -1463459231
+      fbas_04lwr1_longpants_00a_131: 818615309
+      fbas_04lwr1_longpants_00a_15: 1445440826
+      fbas_04lwr1_longpants_00a_49: -2862479
+      fbas_04lwr1_longpants_00a_153: -506772055
+      fbas_04lwr1_longpants_00a_195: -1775005917
+      fbas_04lwr1_longpants_00a_3: 1003765291
+      fbas_04lwr1_longpants_00a_180: -388706927
+      fbas_04lwr1_longpants_00a_66: 1306852085
+      fbas_04lwr1_longpants_00a_126: 906616823
+      fbas_04lwr1_longpants_00a_146: 259436274
+      fbas_04lwr1_longpants_00a_128: 188983777
+      fbas_04lwr1_longpants_00a_35: -1496728704
+      fbas_04lwr1_longpants_00a_1: -10610033
+      fbas_04lwr1_longpants_00a_161: 1890757793
+      fbas_04lwr1_longpants_00a_58: 968339422
+      fbas_04lwr1_longpants_00a_154: -160791608
+      fbas_04lwr1_longpants_00a_105: 1356536840
+      fbas_04lwr1_longpants_00a_193: -1485582866
+      fbas_04lwr1_longpants_00a_43: 2072048396
+      fbas_04lwr1_longpants_00a_125: 958320609
+      fbas_04lwr1_longpants_00a_148: -416976954
+      fbas_04lwr1_longpants_00a_190: -271122505
+      fbas_04lwr1_longpants_00a_173: -1110250919
       fbas_04lwr1_longpants_00a_93: 398202661
-      fbas_04lwr1_longpants_00a_94: -1085122120
-      fbas_04lwr1_longpants_00a_95: -926634317
-      fbas_04lwr1_longpants_00a_96: -1839314575
-      fbas_04lwr1_longpants_00a_97: -903920149
-      fbas_04lwr1_longpants_00a_98: -1489299904
-      fbas_04lwr1_longpants_00a_99: -133535044
+      fbas_04lwr1_longpants_00a_54: -508519577
+      fbas_04lwr1_longpants_00a_156: 577334134
+      fbas_04lwr1_longpants_00a_71: 513258095
+      fbas_04lwr1_longpants_00a_196: -798963801
+      fbas_04lwr1_longpants_00a_73: -1112667884
+      fbas_04lwr1_longpants_00a_38: -1401642436
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
